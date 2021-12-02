@@ -24,3 +24,18 @@ for ($i = 0; $i < count($linesC); $i++) {
 }
 
 var_dump($count);
+
+
+/**
+ * Shorter version
+ */
+$lines = explode("\n", file_get_contents(__DIR__ . '/input.txt'));
+$count = 0;
+
+foreach ($lines as $i => $line) {
+    if (isset($lines[$i + 3]) && $line < $lines[$i + 3]) {
+        $count++;
+    }
+}
+
+var_dump($count);
