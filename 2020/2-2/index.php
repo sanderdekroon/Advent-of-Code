@@ -1,6 +1,6 @@
 <?php
 
-$file = file_get_contents(__DIR__ . '/two_input.txt');
+$file = file_get_contents(__DIR__ . '/input.txt');
 $lines = array_filter(explode("\n", $file));
 
 $valid = 0;
