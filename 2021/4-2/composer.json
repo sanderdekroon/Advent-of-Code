@@ -1,0 +1,17 @@
+{
+    "name": "aoc/bingo",
+    "homepage": "https://github.com/sanderdekroon/Advent-of-Code",
+    "authors": [
+        {
+            "name": "Sander de Kroon",
+            "email": "sander@dekroon.xyz",
+            "homepage": "https://github.com/sanderdekroon",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AOC\\Bingo\\": "./src"
+        }
+    }
+}
